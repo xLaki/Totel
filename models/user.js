@@ -16,6 +16,18 @@ module.exports = function(sequelize, DataTypes){
         password: {
             type: DataTypes.STRING,
             allowNull: false
+        },
+
+        firstName: {
+            type: DataTypes.STRING
+        },
+
+        lastName: {
+            type: DataTypes.STRING 
+        },
+        
+        location: {
+            type: DataTypes.STRING
         }
     });
 

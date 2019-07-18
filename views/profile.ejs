@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Totel | Hivago</title>
-    <link rel="stylesheet" href="https://stackpath/bootstrapcdn.com/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="container mx-auto text-center">
+    <header>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active text-danger text-decoration-none" href="/home">Sign Out</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link text-danger text-decoration-none" href="/user/login"><%=User.username%></a>
+                </li>
+    
+        </ul>
+    </header>
+    <div class="container mx-auto text-center text-light">
         <h2>Totel Tailored Travel Destinations</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa distinctio debitis quas. Vitae quidem sapiente ipsa, impedit nam voluptatem autem? Eius laboriosam labore molestiae dolorem obcaecati ut sint cum. Perferendis.</p>
-        <button>Take the Survey</button>
+        <a class="btn btn-success " href="survey" role="button">Take The Survey!</a>
     </div>
     <script src="/js/main.js"></script>
 </body>
