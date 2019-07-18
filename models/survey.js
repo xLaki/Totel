@@ -15,6 +15,21 @@ module.exports = function(sequelize, DataTypes){
         },
         population: {
             type: DataTypes.INTEGER
+        },
+        culture: {
+            type: DataTypes.STRING
+        },
+        image: {
+            type: DataTypes.STRING
+        },
+        cost: {
+            type: DataTypes.STRING
+        },
+        language: {
+            type: DataTypes.STRING
+        },
+        continent: {
+            type: DataTypes.STRING
         }
     });
 
