@@ -3,7 +3,7 @@
 <head>
 
     <!-- Location of Vacation -->
-    <title>Egypt</title>
+    <title>Totel | <%= Vacation.country%></title>
     <h2 text-align: center>Your Recommended Vacation</h2>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/main.css">
@@ -15,7 +15,7 @@
     <section class="parallax">
         <div class="parallax-inner">
             <!-- Location of Vacation -->
-            <h1>Egypt</h1>
+            <h1><%= Vacation.country%></h1>
         </div>
     </section>
 
@@ -49,7 +49,7 @@
                 <div class="dropdown-menu">
                   <!-- AirBnb link to Website-->
                   <a>
-                    <iframe 
+                    <iframe                                                     
                             width="1500"
                             height="425" 
                             src="https://www.hotels.com/search.do?resolved-location=AIRPORT%3A1661140%3AUNKNOWN%3AUNKNOWN&f-distance=10.0&f-lid=1661140&destination-id=1661140&q-destination=Cairo,%20Egypt%20(CAI-Cairo%20Intl.)&q-check-in=2019-07-20&q-check-out=2019-07-21&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK" 
@@ -75,7 +75,7 @@
 <div>
         <h3>Restaraunts</h3>
         <!-- Restaraunts in Area -->
-        <button id="search1">Local Restaraunts and Food</button>
+        <button id="search1" type="button" class="btn btn-secondary"> Local Restaraunts and Food</button>
         <script>
         var H = "Restaraunts in ";
         document.getElementById('search1').onclick = function() {
@@ -89,7 +89,7 @@
 
 </div>
 
-    <button id="search">Click for Currency Exchange</button>
+    <button id="search" type="button" class="btn btn-secondary">Click for Currency Exchange</button>
 <script>
 var q = "exhange rate USD to ";
 document.getElementById('search').onclick = function() {
