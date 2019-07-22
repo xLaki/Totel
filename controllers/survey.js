@@ -1,5 +1,5 @@
 exports.surveyRes = (req, res) => {
-    req.context.db.Vacations.findAll({
+    req.context.db.Locations.findAll({
         attributes: ['country', 'city']
     }).then(function(results){
         // passing survey data to front end
