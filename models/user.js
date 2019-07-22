@@ -28,6 +28,10 @@ module.exports = function(sequelize, DataTypes){
         
         location: {
             type: DataTypes.STRING
+        },
+
+        age: {
+            type: DataTypes.STRING
         }
     });
 

@@ -30,6 +30,24 @@ module.exports = function(sequelize, DataTypes){
         },
         continent: {
             type: DataTypes.STRING
+        },
+        activity1: {
+            type: DataTypes.STRING
+        },
+        activity2:{
+            type: DataTypes.STRING
+        },
+        activity3:{
+            type: DataTypes.STRING
+        },
+        resturants:{ 
+            type: DataTypes.STRING
+        },
+        currency: {
+            type: DataTypes.STRING
+        },
+        trivagoLink: {
+            type: DataTypes.STRING
         }
     });
 
