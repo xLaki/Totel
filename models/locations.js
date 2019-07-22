@@ -45,6 +45,9 @@ module.exports = function(sequelize, DataTypes){
         },
         currency: {
             type: DataTypes.STRING
+        },
+        trivagoLink: {
+            type: DataTypes.STRING
         }
     });
 
