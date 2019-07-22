@@ -12,10 +12,8 @@ exports.userLogin = (req, res) => {
 
 // GET /profile
 exports.userProfile = (req, res) => {
-    req.body.db.User.findAll({
-        attributes: ['firstName']
-    })
-    res.render('profile');
+
+    res.render('profile', {User: req.user});
 }
 
 // GET for /logout
