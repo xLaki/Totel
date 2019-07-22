@@ -3,7 +3,7 @@
 <head>
 
     <!-- Location of Vacation -->
-    <title>Totel | <%= Vacation.country%></title>
+    <title>Totel | <%= Locations.country%></title>
     <h2 text-align: center>Your Recommended Vacation</h2>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/main.css">
@@ -15,7 +15,7 @@
     <section class="parallax">
         <div class="parallax-inner">
             <!-- Location of Vacation -->
-            <h1><%= Vacation.country%></h1>
+            <h1><%= Locations.country%></h1>
         </div>
     </section>
 
@@ -31,7 +31,7 @@
                 <iframe 
                         width="1500"
                         height="425" 
-                        src="https://www.trivago.com/?aDateRange%5Barr%5D=2019-07-26&aDateRange%5Bdep%5D=2019-07-27&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=8%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=" 
+                        src='<%= db.Locations.trivago %>'
                         frameborder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -52,7 +52,7 @@
                     <iframe                                                     
                             width="1500"
                             height="425" 
-                            src="https://www.hotels.com/search.do?resolved-location=AIRPORT%3A1661140%3AUNKNOWN%3AUNKNOWN&f-distance=10.0&f-lid=1661140&destination-id=1661140&q-destination=Cairo,%20Egypt%20(CAI-Cairo%20Intl.)&q-check-in=2019-07-20&q-check-out=2019-07-21&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK" 
+                            src=" <%=db.Locations.hotel.link%>"
                             frameborder="0" 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
@@ -68,7 +68,11 @@
     <!-- Activites in Vacation Destination -->
 
     <h3>Activities</h3>
-        <p>Activities in Egypt include viewing and touring the Pyramids and ancient structures as well as viewing museums with their vast varieties of artifacts and other wonders. If history isn't your niche then Egypt provides other activities from riding camels to taking a ride on the longest river in the world, the Nile. The local cruisine is phenomenal with famous dishes from Kebabs to Sharwema (A sandwhich with shredded beef, lamb or chicken meat, usually rolled in pita bread with tehina sauce.) </p>
+    <ul class="list-group list-group-flush mt-5 text-light">
+        <% for ( let i=0; i < taskToDo.length;  i++ ) { %>
+            <li class="list-group-item" id="<%= taskToDo[i].id %>" ><%= taskToDo[i].taskItem %></li>
+        <% } %>
+    </ul>
 
 </div>
 
@@ -78,8 +82,9 @@
         <button id="search1" type="button" class="btn btn-secondary"> Local Restaraunts and Food</button>
         <script>
         var H = "Restaraunts in ";
+        var localFood = db.Locations.food
         document.getElementById('search1').onclick = function() {
-            window.open('http://google.com/search?q='+H);
+            window.open('http://google.com/search?q='+H+localFood);
         };
         </script>
     </div>
@@ -92,8 +97,9 @@
     <button id="search" type="button" class="btn btn-secondary">Click for Currency Exchange</button>
 <script>
 var q = "exhange rate USD to ";
+var localCurrency = db.Locations.currency
 document.getElementById('search').onclick = function() {
-    window.open('http://google.com/search?q='+q);
+    window.open('http://google.com/search?q='+q+localCurrency);
 };
 </script>
 
