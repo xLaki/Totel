@@ -42,6 +42,9 @@ module.exports = function(sequelize, DataTypes){
         },
         resturants:{ 
             type: DataTypes.STRING
+        },
+        currency: {
+            type: DataTypes.STRING
         }
     });
 
