@@ -13,6 +13,10 @@ router.post('/user/login', userController.userSignin);
 
 router.get('/profile', isAuthenticated, userController.userProfile);
 
+router.get('/addDestination', userController.addDes)
+
+router.post('/addDestination', userController.addFav)
+
 router.get('/logout', userController.userLogout);
 
 module.exports = router;

@@ -7,7 +7,10 @@ const todoController = require('../controllers/survey');
 // Gets the survey
 router.get( '/survey', todoController.surveyDisplay );
 
-// Posts the response
-router.post( '/survey', todoController.surveyRes)
+router.post( '/survey', todoController.surveyRes);
+
+router.get('/destination', todoController.desDisplay)
+
+router.get('/vacation', todoController.vacation)
 
 module.exports = router;

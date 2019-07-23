@@ -15,15 +15,24 @@
                 <a class="nav-link active text-danger text-decoration-none" href="/home">Sign Out</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-danger text-decoration-none" href="/user/login"><%=User.firstName%></a>
+                <a class="nav-link text-danger text-decoration-none" href="/user/login"><%=user.firstName%></a>
             </li>
-    
         </ul>
     </header>
+
     <div class="container mx-auto text-center text-light">
         <h2>Totel Tailored Travel Destinations</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa distinctio debitis quas. Vitae quidem sapiente ipsa, impedit nam voluptatem autem? Eius laboriosam labore molestiae dolorem obcaecati ut sint cum. Perferendis.</p>
         <a class="btn btn-success " href="survey" role="button">Take The Survey!</a>
+        <h3>Favorites!</h3>
+        <ul class="container mx-auto text-center text-light">
+            <% if (FavToDo){%>
+                <% for ( let i=0; i < FavToDo.length;  i++ ) { %>
+                <li class="list-group-item" id="<%= FavToDo[i].id %>" ><%= FavToDo[i].locationID %></li>
+                <% } %>
+            <% } %>
+        </ul>
+        <a class="btn btn-success" href="/addDestination">Add a Favorite?</a>
     </div>
     <script src="/js/main.js"></script>
 </body>
