@@ -47,7 +47,7 @@ exports.addFav = (req, res) => {
 }
 
 exports.addDes = (req, res) => {
-    res.render('/addDestination')
+    res.render('addDestination')
 }
 
 // POST /user/signup
