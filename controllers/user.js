@@ -12,16 +12,21 @@ exports.userLogin = (req, res) => {
 
 // GET /profile
 exports.userProfile = (req, res) => {
-    req.context.db.UserFavs.findAll({
-        attributes: ['id', 'FavItem']
+    // console.log(req.user)
+    req.context.db.UserFav.findAll({
+        where: {
+            userID: req.user.id
+          }
     }).then(function(results){
-        // rendering tasks view and passing taskToDo data
-        res.render('profile', {FavToDo: results}, {User: req.user});
+        res.render('profile', {FavToDo: results, user: req.user});
+
+        console.log(results)
+        // rendering profile view and passing FavToDo data
     }).catch(function(err){
         console.log(err);
         res.json(err);
     });
-    res.render('profile', {User: req.user});
+    // res.render('profile', {User: req.user});
 }
 
 // GET for /logout

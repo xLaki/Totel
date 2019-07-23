@@ -3,8 +3,8 @@ module.exports = function(sequelize, DataTypes){
         userID: {
             type: DataTypes.INTEGER
         },
-        VayItem: {
-            type: DataTypes.STRING,
+        locationID: {
+            type: DataTypes.INTEGER,
             allowNull: false
         }
     })
