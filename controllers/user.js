@@ -35,6 +35,21 @@ exports.userLogout = (req, res) => {
     res.redirect('/user/login');
 }
 
+exports.addFav = (req, res) => {
+    req.context.db.UserFavs.create({
+        FavItem: req.body.FavItem
+    }).then(function(){
+        res.redirect('/profile');
+    }).catch(function(err){
+        console.log(err);
+        res.json(err);
+    });
+}
+
+exports.addDes = (req, res) => {
+    res.render('/addDestination')
+}
+
 // POST /user/signup
 exports.signup = (req, res) => {
     req.context.db.User.create({
