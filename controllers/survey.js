@@ -13,3 +13,7 @@ exports.surveyRes = (req, res) => {
 exports.surveyDisplay = (req, res) => {
     res.render('survey');
 }
+
+exports.desDisplay = (req, res) => {
+    res.render('destination')
+}

@@ -3,7 +3,7 @@ module.exports = function(sequelize, DataTypes){
         userID: {
             type: DataTypes.INTEGER
         },
-        locationID: {
+        VayItem: {
             type: DataTypes.INTEGER
         }
     })

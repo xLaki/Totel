@@ -7,6 +7,8 @@ const todoController = require('../controllers/survey');
 // Get for tasks: returns all tasks
 router.get( '/survey', todoController.surveyDisplay );
 
-router.post( '/survey', todoController.surveyRes)
+router.post( '/survey', todoController.surveyRes);
+
+router.get('/destination', todoController.desDisplay)
 
 module.exports = router;
