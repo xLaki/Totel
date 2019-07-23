@@ -17,3 +17,7 @@ exports.surveyDisplay = (req, res) => {
 exports.desDisplay = (req, res) => {
     res.render('destination')
 }
+
+exports.vacation = (req, res) => {
+    res.render('vacation')
+}

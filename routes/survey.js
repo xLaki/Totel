@@ -11,4 +11,6 @@ router.post( '/survey', todoController.surveyRes);
 
 router.get('/destination', todoController.desDisplay)
 
+router.get('/vacation', todoController.vacation)
+
 module.exports = router;
