@@ -13,6 +13,8 @@ router.post('/user/login', userController.userSignin);
 
 router.get('/profile', isAuthenticated, userController.userProfile);
 
+router.post('/profile', userController.addFav);
+
 router.get('/logout', userController.userLogout);
 
 module.exports = router;

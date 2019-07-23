@@ -27,7 +27,7 @@
         <a class="btn btn-success " href="survey" role="button">Take The Survey!</a>
         <h3>Favorites!</h3>
         let task = { VayItem: req.body.task }
-        <ul>
+        <ul class="container mx-auto text-center text-light">
             <% for ( let i=0; i < FavToDo.length;  i++ ) { %>
             <li class="list-group-item" id="<%= FavToDo[i].id %>" ><%= FavToDo[i].VayItem %></li>
             <% } %>

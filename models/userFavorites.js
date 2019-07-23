@@ -4,7 +4,8 @@ module.exports = function(sequelize, DataTypes){
             type: DataTypes.INTEGER
         },
         VayItem: {
-            type: DataTypes.INTEGER
+            type: DataTypes.STRING,
+            allowNull: false
         }
     })
     return UserFav

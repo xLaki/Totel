@@ -12,7 +12,15 @@ exports.userLogin = (req, res) => {
 
 // GET /profile
 exports.userProfile = (req, res) => {
-
+    req.context.db.UserFavs.findAll({
+        attributes: ['id', 'FavItem']
+    }).then(function(results){
+        // rendering tasks view and passing taskToDo data
+        res.render('profile', {FavToDo: results}, {User: req.user});
+    }).catch(function(err){
+        console.log(err);
+        res.json(err);
+    });
     res.render('profile', {User: req.user});
 }
 
@@ -42,38 +50,37 @@ exports.userSignin = passport.authenticate('local', {
     });
 
 
-    // ########################USER FAVORITES##########################
-    exports.allFavs = (req, res) => {
-        req.context.db.Task.findAll({
-            attributes: ['id', 'FavItem']
-        }).then(function(results){
-            // rendering tasks view and passing taskToDo data
-            res.render('tasks', {FavToDo: results});
-        }).catch(function(err){
-            console.log(err);
-            res.json(err);
-        });
-    }
-    
-    exports.addFav = (req, res) => {
-        req.context.db.Task.create({
-            FavItem: req.body.taskItem
-        }).then(function(){
-            res.redirect('/');
-        }).catch(function(err){
-            console.log(err);
-            res.json(err);
-        });
-    }
-    
-    exports.removeFav = (req, res) => {
-        req.context.db.Task.destroy({
-            where: { id: req.params.id }
-        }).then(function(result){
-            res.json(result)
-        }).catch(function(err){
-            console.log(err);
-            res.json(err);
-        });
-    }
-    
+// ########################USER FAVORITES##########################
+// exports.allFavs = (req, res) => {
+//     req.context.db.UserFavs.findAll({
+//         attributes: ['id', 'FavItem']
+//     }).then(function(results){
+//         // rendering tasks view and passing taskToDo data
+//         res.render('profile', {FavToDo: results});
+//     }).catch(function(err){
+//         console.log(err);
+//         res.json(err);
+//     });
+// }
+
+// exports.addFav = (req, res) => {
+//     req.context.db.UserFavs.create({
+//         FavItem: req.body.FavItem
+//     }).then(function(){
+//         res.redirect('/profile');
+//     }).catch(function(err){
+//         console.log(err);
+//         res.json(err);
+//     });
+// }
+
+// exports.removeFav = (req, res) => {
+//     req.context.db.UserFavs.destroy({
+//         where: { id: req.params.id }
+//     }).then(function(result){
+//         res.json(result)
+//     }).catch(function(err){
+//         console.log(err);
+//         res.json(err);
+//     });
+// }
