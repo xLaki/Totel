@@ -30,7 +30,7 @@ h3 {
 }
 
 li:hover {
-    text-decoration: line-through;
+    
     background: rgb(0,0,0,0.2);
     cursor: pointer;
 }
