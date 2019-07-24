@@ -15,7 +15,7 @@ router.get('/profile', isAuthenticated, userController.userProfile);
 
 router.get('/addDestination', userController.addDes)
 
-router.post('/addDestination', userController.addFav)
+router.post('/addDestination', userController.addDestination)
 
 router.get('/logout', userController.userLogout);
 

@@ -1,9 +1,15 @@
 body {
-    background-color: #00e0ca;
+    background-color: #53ffdf;
 }
 
 h1 {
-    background: url('../ninja-logo.png') no-repeat center;
+    background: url('../img/totel.PNG') no-repeat center;
+    text-indent: -10000px;
+    margin-bottom: 0;
+}
+
+h3 {
+    background: url('../img/totelmini.PNG') no-repeat center;
     text-indent: -10000px;
     margin-bottom: 0;
 }
@@ -70,7 +76,7 @@ p {
     font-size: 150%
 }
 body {
-    background-color:#00e0ca
+    background-color:#53ffdf
 }
 
 .btns {
