@@ -102,3 +102,21 @@ button {
     font-size: 15px;
 }
 
+#Profile {
+    position: absolute; 
+    top: 400px; 
+    right: 150px;
+    left: 150px;
+    width: 80%; 
+    opacity: .8;
+}
+
+.profilebox {
+    background-color: #000000;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#ProfileHeader {
+    background-color: #000000;
+}

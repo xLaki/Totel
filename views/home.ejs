@@ -7,6 +7,23 @@
     <title>Totel | Hivago</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- Slideshow Images link -->
+    <script type="text/javascript">
+        var image1 = new Image()
+        image1.src = "../images/Athens.jpg"
+        var image2 = new Image()
+        image2.src = "../images/Dubai.jpg"
+        var image3 = new Image()
+        image3.src = "../images/Easter_Island.jpg"
+        var image4 = new Image()
+        image4.src = "../images/Egypt.jpg"
+        var image5 = new Image()
+        image5.src = "../images/Rio_de_Janiero.jpg"
+        var image6 = new Image()
+        image6.src = "../images/South_Africa.jpg"
+        </script>
+
 </head>
 <body>
     <header>
@@ -22,14 +39,30 @@
     </header>
     <div class="container mx-auto text-center text-light">
         <h2>Totel Tailored Travel Destinations</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa distinctio debitis quas. Vitae quidem sapiente ipsa, impedit nam voluptatem autem? Eius laboriosam labore molestiae dolorem obcaecati ut sint cum. Perferendis.</p>
+        <p>Welcome to Totel. The travel website designed with the purpose of aiding you in the selection and booking of a unique travel destination. We can provide you with the ability to answer a series of questions to determine a recommended ideal location for your travels. If you feel that the
+            vacation destination doesn't suit your desires feel free to retake the survey and have access to another recommended location.
+        <br>
+        </p>
         <a class="btn btn-success " href="survey" role="button">Take The Survey!</a>
-    </div>
-    <section class="parallax1">
-            <div class="parallax-inner">
-            
-            </div>
     </section>
+        <!-- SlideShow Function -->
+            <p><img src="" width="1000" height="600" name="slide" /></p>
+            <script type="text/javascript">
+                    var step=1;
+                    function slideit()
+                    {
+                        document.images.slide.src = eval("image"+step+".src");
+                        if(step<6)
+                            step++;
+                        else
+                            step=1;
+                        setTimeout("slideit()",3500);
+                    }
+                    slideit();
+            </script>
+
+
+
     
     <script src="/js/main.js"></script>
 </body>
