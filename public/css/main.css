@@ -135,10 +135,10 @@ legend {
 }
 
 #surveybutton {
-    background-color: white;
+    background-color: #757575;
     border-width: 10px, 10px, 10px, 10px;
-    border-color: #000000;
-    color: #000000;
+    border-color: white;
+    color: white;
     padding: 10px 25px;
     text-align: center;
     text-decoration:currentColor;
