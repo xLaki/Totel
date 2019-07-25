@@ -1,9 +1,15 @@
 body {
-    background-color: #00e0ca;
+    background-color: #53ffdf;
 }
 
 h1 {
-    background: url('../ninja-logo.png') no-repeat center;
+    background: url('../img/totel.PNG') no-repeat center;
+    text-indent: -10000px;
+    margin-bottom: 0;
+}
+
+h3 {
+    background: url('../img/totelmini.PNG') no-repeat center;
     text-indent: -10000px;
     margin-bottom: 0;
 }
@@ -19,11 +25,12 @@ h1 {
 }
 
 .btn {
-    background-color: #f11421;
+    background-color: #53ffdf;
+    color: black;
 }
 
 li:hover {
-    text-decoration: line-through;
+    
     background: rgb(0,0,0,0.2);
     cursor: pointer;
 }
@@ -70,7 +77,7 @@ p {
     font-size: 150%
 }
 body {
-    background-color:#00e0ca
+    background-color:#53ffdf
 }
 
 .btns {
@@ -95,3 +102,21 @@ button {
     font-size: 15px;
 }
 
+#Profile {
+    position: absolute; 
+    top: 400px; 
+    right: 150px;
+    left: 150px;
+    width: 80%; 
+    opacity: .8;
+}
+
+.profilebox {
+    background-color: #000000;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#ProfileHeader {
+    background-color: #000000;
+}

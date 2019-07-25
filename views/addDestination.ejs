@@ -18,16 +18,17 @@
                 <a class="nav-link text-danger text-decoration-none" href="/user/login">Log in</a>
             </li>
         </ul>
+        <h1>Totel</h1>
     </header>
     <div class="container">
             <div class="row">
               <div class="col-md-6 col-md-offset-3">
-                <h2>Sign Up Form</h2>
+                <h2>Add A Favorite Destination</h2>
                 <p>* must be filled</p>
-                <form action="/user/signup" method="POST" class="signup">
+                <form action="/addDestination" method="POST" class="signup">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Country *</label>
-                    <input name="country" type="text" class="form-control" id="country-input" placeholder="Country">
+                    <input name="country" type="text" class="form-control" id="country-input" placeholder="Country" required>
                 </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">City </label>
@@ -59,7 +60,9 @@
                 </div> 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Activities</label>
-                    <input type="text" name="activity1" class="form-control" id="activity-input" placeholder="Activities">
+                    <input type="text" name="activity1" class="form-control" id="activity-input" placeholder="First">
+                    <input type="text" name="activity2" class="form-control" id="activity-input" placeholder="Second">
+                    <input type="text" name="activity3" class="form-control" id="activity-input" placeholder="Third">
                 </div> 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Currency</label>

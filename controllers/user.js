@@ -35,9 +35,20 @@ exports.userLogout = (req, res) => {
     res.redirect('/user/login');
 }
 
-exports.addFav = (req, res) => {
-    req.context.db.UserFavs.create({
-        FavItem: req.body.FavItem
+exports.addDestination = (req, res) => {
+    req.context.db.Locations.create({
+        country: req.body.country,
+        city: req.body.city,
+        climate: req.body.climate,
+        population: req.body.population,
+        culture: req.body.culture,
+        image: req.body.image,
+        cost: req.body.cost,
+        language: req.body.language,
+        activity1: req.body.activity1,
+        activity2: req.body.activity2,
+        activity3: req.body.activity3,
+        currency: req.body.currency
     }).then(function(){
         res.redirect('/profile');
     }).catch(function(err){
@@ -54,7 +65,10 @@ exports.addDes = (req, res) => {
 exports.signup = (req, res) => {
     req.context.db.User.create({
         email: req.body.email , 
-        password: req.body.password
+        password: req.body.password,
+        firstName: req.body.fName,
+        lastName: req.body.lName,
+        location: req.body.locale
     }).then(function () {
         res.redirect('/profile')
     }).catch(function (err) {

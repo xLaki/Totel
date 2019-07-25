@@ -9,17 +9,18 @@
 <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <h1>Totel</h1>
     <bg-color: (,0,0,0)
     <div class="margin bg-warning text-dark"></div>
 
-    <section class="parallax">
+    <section class="parallax" >
         <div class="parallax-inner">
             <!-- Location of Vacation -->
             <h1><%= Locations.country%></h1>
         </div>
     </section>
 
-    <h3>Hotels</h3>
+    <h4>Hotels</h4>
 
     <div class="btns-group dropright">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -31,7 +32,7 @@
             <iframe 
                     width="1500"
                     height="425" 
-                    src='<%= db.Locations.trivago %>'
+                    src='<%= Locations.trivagoLink %>'
                     frameborder="0" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -52,7 +53,7 @@
             <iframe                                                     
                     width="1500"
                     height="425" 
-                    src=" <%=db.Locations.hotel.link%>"
+                    src=" <%= Locations.hotelLink%>"
                     frameborder="0" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -67,22 +68,22 @@
 <div>
     <!-- Activites in Vacation Destination -->
 
-    <h3>Activities</h3>
+    <h4>Activities</h4>
     <ul class="list-group list-group-flush mt-5 text-light">
-        <% for ( let i=0; i < taskToDo.length;  i++ ) { %>
-            <li class="list-group-item" id="<%= taskToDo[i].id %>" ><%= taskToDo[i].taskItem %></li>
+        <% for ( let i=0; i < Locations.length;  i++ ) { %>
+            <li class="list-group-item" id="<%= Locations[i].id %>" ><%= Locations[i].activity1 %></li>
         <% } %>
     </ul>
 
 </div>
 
 <div>
-        <h3>Restaraunts</h3>
+        <h4>Restaraunts</h4>
         <!-- Restaraunts in Area -->
         <button id="search1" type="button" class="btn btn-secondary"> Local Restaraunts and Food</button>
         <script>
         var H = "Restaraunts in ";
-        var localFood = db.Locations.food
+        var localFood = Locations.food
         document.getElementById('search1').onclick = function() {
             window.open('http://google.com/search?q='+H+localFood);
         };
@@ -90,14 +91,14 @@
     </div>
     
 <div>
-    <h3> Currency and Exchange Rate</h3>
+    <h4> Currency and Exchange Rate</h4>
 
 </div>
 
     <button id="search" type="button" class="btn btn-secondary">Click for Currency Exchange</button>
 <script>
 var q = "exhange rate USD to ";
-var localCurrency = db.Locations.currency
+var localCurrency = Locations.currency
 document.getElementById('search').onclick = function() {
     window.open('http://google.com/search?q='+q+localCurrency);
 };
@@ -109,6 +110,6 @@ document.getElementById('search').onclick = function() {
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 <footer>
-    &copy; Alex Wolfenden
+    &copy; Totel
 </footer>
 </html>
