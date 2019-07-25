@@ -1,5 +1,5 @@
 body {
-    background-color: #00e0ca;
+    background: url(https://wallpapercave.com/wp/aTDLz1T.jpg);
 }
 
 h1 {
@@ -15,13 +15,13 @@ h3 {
  }
 
 .container {
-    background-color: #0b8c7f;
+    background-color: #000000;
     margin-bottom: 20px;
     padding-bottom: 15px;
 }
 
 .list-group-item {
-    background-color: #01423c;
+    background-color: #000000;
 }
 
 .btn {
@@ -76,7 +76,7 @@ p {
     font-size: 150%
 }
 body {
-    background-color:#00e0ca
+    background: url(https://wallpapercave.com/wp/aTDLz1T.jpg);
 }
 
 .btns {
