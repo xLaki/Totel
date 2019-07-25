@@ -21,6 +21,13 @@
     </header>
 
 <h2>YOU'VE BEEN BEANED</h2>
+<ul class="profilebox mx-auto text-center text-light">
+    <% if (Locations){%>
+        <% for ( let i=0; i < Locations.length;  i++ ) { %>
+        <li class="list-group-item" id="<%= Locations[i].id %>" ><%= Locations[i].locationID %></li>
+        <% } %>
+    <% } %>
+</ul>
 
 
 </body>
