@@ -127,3 +127,26 @@ button {
 #HomeButton {
     vertical-align: 20px;
 }
+
+legend {
+    text-align: left;
+    font-size: 200%;
+    color: white
+}
+
+#surveybutton {
+    background-color: white;
+    border-width: 10px, 10px, 10px, 10px;
+    border-color: #000000;
+    color: #000000;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration:currentColor;
+    display: inline-block;
+    font-size: 25px;
+    margin-left:50px;
+}
+
+fieldset {
+    margin-left: 50px;
+}
