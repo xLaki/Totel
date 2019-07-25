@@ -30,7 +30,7 @@ h3 {
 
 li:hover {
     
-    background: rgb(0,0,0,0.2);
+    background: rgba(241, 11, 11, 0.2);
     cursor: pointer;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 button {
-    background-color: black;
+    background-color: grey;
     border: none;
     color: white;
     padding: 10px 25px;

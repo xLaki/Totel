@@ -24,7 +24,7 @@
 <ul class="profilebox mx-auto text-center text-light">
     <% if (Locations){%>
         <% for ( let i=0; i < Locations.length;  i++ ) { %>
-        <li class="list-group-item" id="<%= Locations[i].id %>" ><%= Locations[i].locationID %></li>
+        <li class="list-group-item mt-1" id="<%= Locations[i].id %>" ><%= Locations[i].country %></li>
         <% } %>
     <% } %>
 </ul>
