@@ -150,3 +150,16 @@ legend {
 fieldset {
     margin-left: 50px;
 }
+
+#surveydiv {
+    background-color: #757575;
+    margin-left: 50px;
+    width: 60%; 
+    border-radius: 25px;
+}
+
+#SurveyHeader {
+    text-align: center;
+    font-size: 400%;
+    color: white
+}
