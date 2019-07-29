@@ -11,9 +11,11 @@ exports.surveyRes = (req, res) => {
 }
 
 exports.final = (req, res) => {
+    console.log(req.params.id)
     req.context.db.Locations.findAll({
-        where: {country: req.params.id}
+        where: {ID: req.params.id}
     }).then(function(results){
+        console.log(req.params.id)
         res.render('destination', {Locations: results})
     }).catch(function(err){
         console.log(err);
