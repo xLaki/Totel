@@ -145,10 +145,10 @@ legend {
     color: #000000;
     padding: 10px 25px;
     text-align: center;
-    text-decoration:currentColor;
+    text-decoration: currentColor;
     display: inline-block;
     font-size: 25px;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 fieldset {
