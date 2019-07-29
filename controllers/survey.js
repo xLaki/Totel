@@ -33,7 +33,7 @@ exports.surveyDisplay = (req, res) => {
 
 exports.vacation = (req, res) => {
     req.context.db.Locations.findAll({
-        attributes: ['id','country', 'city', 'climate', 'population', 'culture', 'image','cost','language','continent','activity1','activity2','activity3','resturants','currency','trivagoLink','hotelLink']
+        attributes: ['id','country', 'city', 'climate', 'population', 'culture', 'image','cost','language','continent','activity1','activity2','activity3','restaurants','currency','trivagoLink','hotelLink']
     }).then(function(results){
         res.render('vacation', {Locations: results})
     })

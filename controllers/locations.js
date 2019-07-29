@@ -1,12 +1,5 @@
 const mysql = require('mysql');
 
-const db = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'admin',
-    password : 'student',
-    database : 'Totel'
-});
-
 exports.lowCostVacays = (req, res) => {
     console.log(req.context);
     let sql = 'SELECT * FROM Locations WHERE cost="Low"';
