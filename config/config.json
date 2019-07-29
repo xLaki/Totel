@@ -1,7 +1,7 @@
 {
     "development": {
       "username": "admin",
-      "password": "avacado1219",
+      "password": "student",
       "database": "Totel",
       "host": "127.0.0.1",
       "dialect": "mysql"

@@ -28,20 +28,7 @@ db.Locations.create({
 
 db.Locations.create({
     country: "Brazil",
-    city: "Rio Be Janeiro",
-    climate: "Tropical",
-    population: "High",
-    culture: "Western",
-    image: "http://www.mauriciotravels.com/wp-content/uploads/2014/02/rio1-1024x640.jpg",
-    cost: "Low",
-    language: "Portuguese",
-    continent: "South America",
-    currency: "Brazilian Real"
-});
-
-db.Locations.create({
-    country: "Brazil",
-    city: "Rio Be Janeiro",
+    city: "Rio De Janeiro",
     climate: "Tropical",
     population: "High",
     culture: "Western",
