@@ -47,10 +47,10 @@ module.exports = function(sequelize, DataTypes){
             type: DataTypes.STRING
         },
         trivagoLink: {
-            type: DataTypes.STRING
+            type: DataTypes.TEXT
         },
         hotelLink: {
-            type: DataTypes.STRING
+            type: DataTypes.TEXT
         }
     });
     return Locations
