@@ -1,7 +1,7 @@
-const taskItems = document.getElementsByTagName('li');
+const VayItems = document.getElementsByTagName('li');
 
-for (let i = 0; i < taskItems.length; i++) {
-    const element = taskItems[i];
+for (let i = 0; i < VayItems.length; i++) {
+    const element = VayItems[i];
 
     element.addEventListener('click', function(){
         console.log(element.id);

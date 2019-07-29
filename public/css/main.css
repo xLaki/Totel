@@ -1,5 +1,5 @@
 body {
-    background-color: #00e0ca;
+    background: url(https://wallpapercave.com/wp/aTDLz1T.jpg);
 }
 
 h1 {
@@ -8,23 +8,29 @@ h1 {
     margin-bottom: 0;
 }
 
+h3 {
+    background: url('../img/totelmini.PNG') no-repeat center;
+    text-indent: -10000px;
+    margin-bottom: 0;
+ }
+
 .container {
-    background-color: #0b8c7f;
+    background-color: #000000;
     margin-bottom: 20px;
     padding-bottom: 15px;
 }
 
 .list-group-item {
-    background-color: #01423c;
+    background-color: #000000;
 }
 
 .btn {
-    background-color: #f11421;
+    background-color: #474242;
 }
 
 li:hover {
-    text-decoration: line-through;
-    background: rgb(0,0,0,0.2);
+    
+    background: rgba(241, 11, 11, 0.2);
     cursor: pointer;
 }
 
@@ -59,10 +65,10 @@ h1 {
 h2 {
     text-align: center;
     font-size: 300%;
-    color: white
+    color: white;
 }
 h3 {
-    text-align: left;
+    text-align: center;
     font-size: 300%;
     color: white
 }
@@ -70,7 +76,7 @@ p {
     font-size: 150%
 }
 body {
-    background-color:#00e0ca
+    background: url(https://wallpapercave.com/wp/aTDLz1T.jpg);
 }
 
 .btns {
@@ -85,7 +91,7 @@ body {
 }
 
 button {
-    background-color: black;
+    background-color: grey;
     border: none;
     color: white;
     padding: 10px 25px;
@@ -95,3 +101,65 @@ button {
     font-size: 15px;
 }
 
+#Profile {
+    position: absolute; 
+    top: 400px; 
+    right: 150px;
+    left: 150px;
+    width: 80%; 
+    opacity: .8;
+}
+
+.profilebox {
+    background-color: #000000;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#ProfileHeader {
+    background-color: #000000;
+}
+
+#HomeDiv {
+    background-color: #000000;
+}
+
+#HomeButton {
+    vertical-align: 20px;
+}
+
+legend {
+    text-align: left;
+    font-size: 200%;
+    color: white
+}
+
+#surveybutton {
+    background-color: #757575;
+    border-width: 10px, 10px, 10px, 10px;
+    border-color: white;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration:currentColor;
+    display: inline-block;
+    font-size: 25px;
+    margin-left:50px;
+}
+
+fieldset {
+    margin-left: 50px;
+}
+
+#surveydiv {
+    background-color: #757575;
+    margin-left: 50px;
+    width: 60%; 
+    border-radius: 25px;
+}
+
+#SurveyHeader {
+    text-align: center;
+    font-size: 400%;
+    color: white
+}

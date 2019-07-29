@@ -4,7 +4,8 @@ module.exports = function(sequelize, DataTypes){
             type: DataTypes.INTEGER
         },
         locationID: {
-            type: DataTypes.INTEGER
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     })
     return UserFav
