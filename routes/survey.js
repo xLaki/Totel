@@ -11,6 +11,8 @@ router.post( '/survey', todoController.surveyRes);
 
 router.get('/destination', todoController.final)
 
+router.get('/destination/:id', todoController.final)
+
 router.get('/vacation', todoController.vacation)
 
 router.post('/vacation', todoController.final)
