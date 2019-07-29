@@ -12,7 +12,7 @@ exports.surveyRes = (req, res) => {
 
 exports.final = (req, res) => {
     req.context.db.Locations.findAll({
-        attributes: ['country', 'city', 'climate', 'population', 'culture', 'image','cost','language','continent','activity1','activity2','activity3','resturants','currency','trivagoLink','hotelLink']
+        where: {country: req.params.id}
     }).then(function(results){
         res.render('destination', {Locations: results})
     }).catch(function(err){
@@ -30,6 +30,10 @@ exports.surveyDisplay = (req, res) => {
 // }
 
 exports.vacation = (req, res) => {
-    res.render('vacation')
+    req.context.db.Locations.findAll({
+        attributes: ['id','country', 'city', 'climate', 'population', 'culture', 'image','cost','language','continent','activity1','activity2','activity3','resturants','currency','trivagoLink','hotelLink']
+    }).then(function(results){
+        res.render('vacation', {Locations: results})
+    })
 }
 

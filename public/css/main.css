@@ -24,7 +24,7 @@ h3 {
 }
 
 .list-group-item {
-    background-color: #000000;
+    background-color: #0000007e;
 }
 
 .btn {
@@ -33,7 +33,7 @@ h3 {
 
 li:hover {
     
-    background: rgb(0,0,0,0.2);
+    background: rgba(241, 11, 11, 0.2);
     cursor: pointer;
 }
 
@@ -94,8 +94,8 @@ body {
 }
 
 button {
-    background-color: black;
-    border: none;
+    background-color: grey;
+    border: black;
     color: white;
     padding: 10px 25px;
     text-align: center;
@@ -139,10 +139,10 @@ legend {
 }
 
 #surveybutton {
-    background-color: white;
+    background-color: #757575;
     border-width: 10px, 10px, 10px, 10px;
-    border-color: #000000;
-    color: #000000;
+    border-color: white;
+    color: white;
     padding: 10px 25px;
     text-align: center;
     text-decoration: currentColor;
@@ -163,3 +163,4 @@ fieldset {
     padding-top: 30px;
     padding-bottom: 60px;
 }
+
