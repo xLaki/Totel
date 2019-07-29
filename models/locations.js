@@ -14,7 +14,7 @@ module.exports = function(sequelize, DataTypes){
             type: DataTypes.STRING
         },
         population: {
-            type: DataTypes.INTEGER
+            type: DataTypes.STRING
         },
         culture: {
             type: DataTypes.STRING
@@ -40,7 +40,7 @@ module.exports = function(sequelize, DataTypes){
         activity3:{
             type: DataTypes.STRING
         },
-        resturants:{ 
+        restaurants:{ 
             type: DataTypes.STRING
         },
         currency: {
