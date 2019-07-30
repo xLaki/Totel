@@ -20,11 +20,11 @@
         </ul>
     </header>
 
-<h2>YOU'VE BEEN BEANED</h2>
+<h2>Your Recommended Vacation</h2>
 <ul class="profilebox mx-auto text-center text-light">
     <% if (Locations){%>
         <% for ( let i=0; i < Locations.length;  i++ ) { %>
-        <li class="list-group-item mt-2 " id="<%= Locations[i].id %>" ><a href="/destination" class="text-danger text-decoration-none"><%= Locations[i].country %>, <%= Locations[i].city%></a></li>
+        <li class="list-group-item mt-2 " id="<%= Locations[i].id %>" ><a href="/destination/<%= Locations[i].id %>" class="text-danger text-decoration-none"><%= Locations[i].city %>, <%= Locations[i].country%></a></li>
         <% } %>
     <% } %>
 </ul>

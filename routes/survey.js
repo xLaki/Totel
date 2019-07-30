@@ -1,20 +1,20 @@
 const express = require('express');
 const router  = express.Router();
-const todoController = require('../controllers/survey');
+const surveyController = require('../controllers/survey');
 
 // ############### ROUTES ##############
 
 // Gets the survey
-router.get( '/survey', todoController.surveyDisplay );
+router.get( '/survey', surveyController.surveyDisplay );
 
-router.post( '/survey', todoController.surveyRes);
+router.post( '/survey', surveyController.surveyRes);
 
-router.get('/destination', todoController.final)
+// router.get('/destination', surveyController.final)
 
-router.get('/destination/:id', todoController.final)
+router.get('/destination/:id', surveyController.destination)
 
-router.get('/vacation', todoController.vacation)
+// router.get('/vacation', surveyController.vacation)
 
-router.post('/vacation', todoController.final)
+router.post('/vacation', surveyController.final)
 
 module.exports = router;

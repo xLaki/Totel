@@ -8,42 +8,42 @@
 </head>
 <body>
     <br>
-       <form action="/vacation" method="GET">
+       <form action="/vacation" method="POST">
             <div id="surveydiv">
                <fieldset>
                    <legend>Which Culture do you Prefer?</legend>
-                   <p><label class="choice"> <input type="radio" name="Culture" required value="Eastern"> Eastern </label></p>
-                   <p><label class="choice"> <input type="radio" name="Culture" required value="Western"> Western </label></p>
+                   <p><label class="choice"> <input type="radio" name="culture" required value="Eastern"> Eastern </label></p>
+                   <p><label class="choice"> <input type="radio" name="culture" required value="Western"> Western </label></p>
                    </fieldset>
                 </div>
                 <br>
             <div id="surveydiv">
                <fieldset>
                    <legend>Which Climate would you like to visit?</legend>
-                   <p><label class="choice"> <input type="radio" name="Climate" required value="Tropical">Tropical<br><j>A Warm and Typically humid Climate with warm temperatures throughout all seasons of the year</j> </label></p>
-                   <p><label class="choice"> <input type="radio" name="Climate" required value="Moderate"> Moderate<br><j>A climate that has medium temperatures throughout the year that vary based on the season</j> </label></p>
-                   <p><label class="choice"> <input type="radio" name="Climate" required value="Continental"> Continental<br><j>A climate that has colder temperatures and typically has a dry climate</j> </label></p>
+                   <p><label class="choice"> <input type="radio" name="climate" required value="Tropical"> Tropical <br><j>A Warm and Typically humid Climate with warm temperatures throughout all seasons of the year</j> </label></p>
+                   <p><label class="choice"> <input type="radio" name="climate" required value="Moderate"> Moderate <br><j>A climate that has medium temperatures throughout the year that vary based on the season</j> </label></p>
+                   <p><label class="choice"> <input type="radio" name="climate" required value="Continental"> Continental <br><j>A climate that has colder temperatures and typically has a dry climate</j> </label></p>
                    </fieldset>
                 </div>
                 <br>
             <div id="surveydiv">
                <fieldset>
                    <legend>What location size would you like to visit?</legend>
-                   <p><label class="choice"> <input type="radio" name="Population" required value="High"> Large </label></p>
-                   <p><label class="choice"> <input type="radio" name="Population" required value="Low"> Small </label></p>
+                   <p><label class="choice"> <input type="radio" name="population" required value="High"> Large </label></p>
+                   <p><label class="choice"> <input type="radio" name="population" required value="Low"> Small </label></p>
                    </fieldset>
                 </div>
                 <br>
             <div id="surveydiv">
                <fieldset>
                    <legend>What price range can you afford for this vacation?</legend>
-                   <p><label class="choice"> <input type="radio" name="Price" required value="Low"> $ </label></p>
-                   <p><label class="choice"> <input type="radio" name="Price" required value="Medium"> $$ </label></p>
-                   <p><label class="choice"> <input type="radio" name="Price" required value="High"> $$$ </label></p>
+                   <p><label class="choice"> <input type="radio" name="cost" required value="Low"> $ </label></p>
+                   <p><label class="choice"> <input type="radio" name="cost" required value="Medium"> $$ </label></p>
+                   <p><label class="choice"> <input type="radio" name="cost" required value="High"> $$$ </label></p>
                    </fieldset>
                 </div>
                 <br>
-               <button id="surveybutton" type="input"  class="btn btn-default">Find your tailored Destination</button>
+               <button id="surveybutton" type="submit" class="btn btn-default">Find your tailored Destination</button>
            </form>
        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
