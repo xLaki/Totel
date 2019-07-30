@@ -77,7 +77,7 @@
         <button id="search1" type="button" class="btn btn-secondary"> Local Restaraunts and Food in <%= destination.city %></button>
         <script>
         var H = "Restaraunts in ";
-        var localFood = '<%= destination.food%>'
+        var localFood = '<%= destination.city%>'
         document.getElementById('search1').onclick = function() {
             window.open('http://google.com/search?q='+H+localFood);
         };

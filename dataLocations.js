@@ -281,6 +281,9 @@ db.Locations.create({
     language: "Egyptian",
     continent: "Africa",
     currency: "Egyptian Pound",
+    activity1: "Activate the Mummies Curse",
+    activity2: "Eat Papyrus",
+    activity3: "swim in the Nile",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=8%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1634358%3AUNKNOWN%3AUNKNOWN&destination-id=1634358&q-destination=Cairo,%20Egypt&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -296,6 +299,9 @@ db.Locations.create({
     language: "English",
     continent: "Oceania",
     currency: "Australian Dollar",
+    activity1: "die in the Outback",
+    activity2: "Survive in the Outback",
+    activity3: "Purgatory is the Outback",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=25057%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A26633%3AUNKNOWN%3AUNKNOWN&destination-id=26633&q-destination=Sydney,%20New%20South%20Wales,%20Australia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -311,6 +317,9 @@ db.Locations.create({
     language: "Indonesian",
     continent: "Oceania",
     currency: "Indonesian Rupiah",
+    activity1: "wish you were in Australia",
+    activity2: "enjoy vietnam and thailand but from a distance",
+    activity3: "cool insect life though",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=72399%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A659455%3AUNKNOWN%3AUNKNOWN&destination-id=659455&q-destination=Jakarta,%20Indonesia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -326,6 +335,9 @@ db.Locations.create({
     language: "English",
     continent: "Oceania",
     currency: "Fijian Dollar",
+    activity1: "drown",
+    activity2: "swim",
+    activity3: "eaten out by sharks",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=54%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=COUNTRY%3A10233053%3AUNKNOWN%3AUNKNOWN&destination-id=10233053&q-destination=Fiji&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -341,6 +353,9 @@ db.Locations.create({
     language: "Chilean",
     continent: "South America",
     currency: "Chilean Peso",
+    activity1: "LLama",
+    activity2: "Striped Sweater",
+    activity3: "Mayan sacrifice",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=81566%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=REGION%3A1641798%3AUNKNOWN%3AUNKNOWN&destination-id=1641798&q-destination=Easter%20Island,%20Chile&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -356,6 +371,9 @@ db.Locations.create({
     language: "Vietnamese",
     continent: "Asia",
     currency: "Vietnamese Dong",
+    activity1: "I am the Lorax",
+    activity2: "and I speak for the Trees",
+    activity3: "and the trees are speaking Vietnamese",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=428528%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=REGION%3A1640036%3AUNKNOWN%3AUNKNOWN&destination-id=1640036&q-destination=Halong%20Bay,%20Vietnam&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -371,6 +389,9 @@ db.Locations.create({
     language: "English",
     continent: "Asia",
     currency: "Dirhams",
+    activity1: "go to jail in a Lambo",
+    activity2: "Rob a Casino",
+    activity3: "Ride a Camel",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=15075%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A11594%3AUNKNOWN%3AUNKNOWN&destination-id=11594&q-destination=Dubai,%20United%20Arab%20Emirates&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -386,6 +407,9 @@ db.Locations.create({
     language: "Turkish",
     continent: "Asia",
     currency: "Turkish Lira",
+    activity1: "eat Turkey",
+    activity2: "Fuck the byzantine",
+    activity3: "discount roman empire",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=15288%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1341107%3AUNKNOWN%3AUNKNOWN&destination-id=1341107&q-destination=Istanbul,%20Turkey&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -401,6 +425,9 @@ db.Locations.create({
     language: "Indian",
     continent: "Asia",
     currency: "Indian Rupee",
+    activity1: "Swim in river ;)",
+    activity2: "Call Center",
+    activity3: "Dowry BABY",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=420699%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A675357%3AUNKNOWN%3AUNKNOWN&destination-id=675357&q-destination=New%20Delhi,%20India&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -416,6 +443,9 @@ db.Locations.create({
     language: "English",
     continent: "Africa",
     currency: "South African Rand",
+    activity1: "Enjoy French Colonization",
+    activity2: "Oui Oui",
+    activity3: "Baguette",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=186%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=COUNTRY%3A10233158%3AUNKNOWN%3AUNKNOWN&destination-id=10233158&q-destination=South%20Africa&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -431,6 +461,9 @@ db.Locations.create({
     language: "Arabic",
     continent: "Africa",
     currency: "Moroccan Dirham",
+    activity1: "enjoy Africa",
+    activity2: "Enjoy Best Country in Africa",
+    activity3: "Enjoy African Outback",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=409749%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=COUNTRY%3A10233117%3AUNKNOWN%3AUNKNOWN&destination-id=10233117&q-destination=Morocco&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -446,6 +479,9 @@ db.Locations.create({
     language: "Japanese",
     continent: "Asia",
     currency: "Japanese Yen",
+    activity1: "spicy green juice",
+    activity2: "Godzirra",
+    activity3: "Naruoto Ran",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=71644%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A728341%3AUNKNOWN%3AUNKNOWN&destination-id=728341&q-destination=Nara,%20Japan&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -461,6 +497,9 @@ db.Locations.create({
     language: "Japanese",
     continent: "Asia",
     currency: "Japanese Yen",
+    activity1: "Anime",
+    activity2: "Hentai",
+    activity3: "Tentacles",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=71462%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A726784%3AUNKNOWN%3AUNKNOWN&destination-id=726784&q-destination=Tokyo,%20Japan&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -476,6 +515,9 @@ db.Locations.create({
     language: "Russian",
     continent: "Asia",
     currency: "Russian Ruble",
+    activity1: "Drink",
+    activity2: "Wear Adidas",
+    activity3: "Squat",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=66938%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1153093%3AUNKNOWN%3AUNKNOWN&destination-id=1153093&q-destination=Moscow,%20Russia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -491,6 +533,9 @@ db.Locations.create({
     language: "Korean",
     continent: "Asia",
     currency: "Korean Won",
+    activity1: "Starcraft",
+    activity2: "Starcraft 2",
+    activity3: "Overwatch",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=188%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A210777%3AUNKNOWN%3AUNKNOWN&f-distance=25.0&f-lid=10601202&destination-id=210777&q-destination=Dandong,%20China&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
 });
@@ -506,6 +551,9 @@ db.Locations.create({
     language: "Russian",
     continent: "Europe",
     currency: "Russian Ruble",
+    activity1: "Die to a RadRoach",
+    activity2: "Die to a Deathclaw",
+    activity3: "Become a Ghoul",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=2188678%2F500&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1378654%3AUNKNOWN%3AUNKNOWN&destination-id=1378654&q-destination=Kiev,%20Ukraine&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
@@ -521,6 +569,9 @@ db.Locations.create({
     language: "Romanian",
     continent: "Europe",
     currency: "Moldovan Leu",
+    activity1: "Not Invade Poland",
+    activity2: "Not Invade France",
+    activity3: "Not Invade Spaghetti land",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=130%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=GEO_LOCATION%3ACrasnoe,%20Moldova%7C46.6432639%7C29.8286866%3AGEOCODE%3AUNKNOWN&q-destination=Crasnoe,%20Moldova&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
 });
@@ -536,6 +587,9 @@ db.Locations.create({
     language: "Russian",
     continent: "Asia",
     currency: "Russian Ruble",
+    activity1: "Drink",
+    activity2: "Party",
+    activity3: "Join the Mafia",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=66907%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1174644%3AUNKNOWN%3AUNKNOWN&destination-id=1174644&q-destination=Tyumen,%20Russia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
 });
