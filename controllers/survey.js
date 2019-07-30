@@ -11,6 +11,7 @@ exports.surveyRes = (req, res) => {
 }
 
 exports.final = (req, res) => {
+
     console.log(req.body.culture, req.body.climate, req.body.population, req.body.cost)
 
     req.context.db.Locations.findAll({
@@ -37,6 +38,7 @@ exports.destination = (req, res) => {
     }).then(function(result){
         console.log(req.body.culture, req.body.climate, req.body.population, req.body.cost)
         res.render('destination', {destination: result})
+
     }).catch(function(err){
         console.log(err);
         res.json(err);
