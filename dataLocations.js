@@ -10,6 +10,9 @@ db.Locations.create({
     cost: "High",
     language: "English",
     continent: "North America",
+    activity1: "Go on an Everglades Tour",
+    activity2: "Tour of Wynwood Walls",
+    activity3: "Go on a Crazy Speedboat Ride",
     currency: "US Dollar",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=14338%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1516192%3AUNKNOWN%3AUNKNOWN&destination-id=1516192&q-destination=Miami,%20Florida,%20United%20States%20of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -25,6 +28,9 @@ db.Locations.create({
     cost: "Medium",
     language: "Spanish",
     continent: "North America",
+    activity1: "Shop at San Jose Market",
+    activity2: "See the View at Camera Obscura",
+    activity3: "Visit Fabrica de Arte Cubano",
     currency: "Cuban Peso",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=15382%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1911770%3AUNKNOWN%3AUNKNOWN&destination-id=1911770&q-destination=Havana,%20Cuba&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -40,6 +46,9 @@ db.Locations.create({
     cost: "Low",
     language: "Portuguese",
     continent: "South America",
+    activity1: "Go See Christ the Redeemer",
+    activity2: "Cable Car Ride to Sugar Loaf Mountain",
+    activity3: "View the Aesthetics of Prainha Beach",
     currency: "Brazilian Real",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=59182%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A146100%3AUNKNOWN%3AUNKNOWN&destination-id=146100&q-destination=Rio%20de%20Janeiro,%20Brazil&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -55,6 +64,9 @@ db.Locations.create({
     cost: "High",
     language: "French",
     continent: "North America",
+    activity1: "Check out Front Street",
+    activity2: "Visit the Great Bay Beach",
+    activity3: "Yoda Guy Movie Exhibit (for all you Star Wars Fans)",
     currency: "Antillean Guilder",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=410257%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A11464%3AUNKNOWN%3AUNKNOWN&f-distance=5.0&f-lid=1657232&destination-id=11464&q-destination=Philipsburg,%20Sint%20Maarten&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0&sort-order=DISTANCE_FROM_LANDMARK"
@@ -70,6 +82,9 @@ db.Locations.create({
     cost: "Medium",
     language: "Spanish",
     continent: "North America",
+    activity1: "Sightsee at Playacar",
+    activity2: "View the Sculptures at Los Fundadores Park",
+    activity3: "Shop in Markets on Fifth Avenue (yes, in Mexico!)",
     currency: "Peso",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=32193%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A862967%3AUNKNOWN%3AUNKNOWN&destination-id=862967&q-destination=Playa%20del%20Carmen,%20Quintana%20Roo,%20Mexico&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -85,6 +100,9 @@ db.Locations.create({
     cost: "Low",
     language: "Spanish",
     continent: "South America",
+    activity1: "Have Fun in the Water at Rosario Islands",
+    activity2: "Check out the Palace of Inquisition",
+    activity3: "Visit Castillo de San Felipe de Barajas",
     currency: "Colombian Peso",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=65529%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A295594%3AUNKNOWN%3AUNKNOWN&destination-id=295594&q-destination=Cartagena,%20Colombia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -100,6 +118,9 @@ db.Locations.create({
     cost: "High",
     language: "Spanish",
     continent: "Europe",
+    activity1: "View the Art at Museo Nacional del Prado",
+    activity2: "Walk Around in Plaza Mayor",
+    activity3: "Float Around in El Retiro Park",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=13628%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A457987%3AUNKNOWN%3AUNKNOWN&destination-id=457987&q-destination=Madrid,%20Spain&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -115,6 +136,9 @@ db.Locations.create({
     cost: "Medium",
     language: "Italian",
     continent: "Europe",
+    activity1: "See the Ruins of The Colosseum",
+    activity2: "Visit the Excavated Roman Forum",
+    activity3: "Check Out the Style of Trevi Fountain",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=25084%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A712491%3AUNKNOWN%3AUNKNOWN&destination-id=712491&q-destination=Rome,%20Italy&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -130,6 +154,9 @@ db.Locations.create({
     cost: "Low",
     language: "Greek",
     continent: "Europe",
+    activity1: "Check Out the Historical Acropolis",
+    activity2: "View the Ruins of The Parthenon",
+    activity3: "Visit the Treasures of the Acropolis Museum",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=13914%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A593632%3AUNKNOWN%3AUNKNOWN&destination-id=593632&q-destination=Athens,%20Greece&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -145,6 +172,9 @@ db.Locations.create({
     cost: "High",
     language: "Italian",
     continent: "Europe",
+    activity1: "See the Gothic Doge's Palace",
+    activity2: "Take in the Vibe of St. Mark's Square",
+    activity3: "Walk On or Float Under Rialto Bridge",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=26802%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A710846%3AUNKNOWN%3AUNKNOWN&destination-id=710846&q-destination=Venice,%20Italy&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -160,6 +190,9 @@ db.Locations.create({
     cost: "Medium",
     language: "Croatian",
     continent: "Europe",
+    activity1: "Feel the Mist at the Big Waterfall",
+    activity2: "Check Out the View at Kozjak",
+    activity3: "Have Fun with the Water at Korana",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=134019%2F500&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1693342%3AUNKNOWN%3AUNKNOWN&destination-id=1693342&q-destination=Plitvicka%20jezera,%20Croatia&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -175,6 +208,9 @@ db.Locations.create({
     cost: "Low",
     language: "Greek",
     continent: "Europe",
+    activity1: "Check Out the Shrine at Menelaion",
+    activity2: "See the Ruins at Sanctuary of Artemis Orthia",
+    activity3: "View the Ancient Artifacts at the Archaeological Museum of Sparta",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=14015%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A588770%3AUNKNOWN%3AUNKNOWN&destination-id=588770&q-destination=Sparta,%20Greece&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -190,6 +226,9 @@ db.Locations.create({
     cost: "High",
     language: "French",
     continent: "Europe",
+    activity1: "Go To the Eiffel Tower",
+    activity2: "View the Arts at Louvre Museum",
+    activity3: "Check Out Arc de Triomphe",
     currency: "Euro",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=22235%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A504261%3AUNKNOWN%3AUNKNOWN&destination-id=504261&q-destination=Paris,%20France&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -205,6 +244,9 @@ db.Locations.create({
     cost: "Medium",
     language: "English",
     continent: "North America",
+    activity1: "Visit the Statue of Liberty",
+    activity2: "Take a Walk in Central Park",
+    activity3: "Have a Blast at Rockefeller Center",
     currency: "US Dollar",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=14734%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1506246%3AUNKNOWN%3AUNKNOWN&destination-id=1506246&q-destination=New%20York,%20New%20York,%20United%20States%20Of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -220,6 +262,9 @@ db.Locations.create({
     cost: "Low",
     language: "English",
     continent: "Europe",
+    activity1: "View the One-And-Only Big Ben",
+    activity2: "See the Tower of London",
+    activity3: "Ride the Coca-Cola London Eye",
     currency: "Pound",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=17399%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A549499%3AUNKNOWN%3AUNKNOWN&destination-id=549499&q-destination=London,%20England,%20United%20Kingdom&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -235,6 +280,9 @@ db.Locations.create({
     cost: "High",
     language: "English",
     continent: "North America",
+    activity1: "Go on a Tour at Portage Glacier",
+    activity2: "Go On an Outdoor Expedition at Chugach State Park",
+    activity3: "See the Animals at Alaska Wildlife Conservation",
     currency: "US Dollar",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=14206%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1490614%3AUNKNOWN%3AUNKNOWN&destination-id=1490614&q-destination=Anchorage,%20Alaska,%20United%20States%20of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -250,6 +298,9 @@ db.Locations.create({
     cost: "Medium",
     language: "French",
     continent: "North America",
+    activity1: "Walk Around in Old Quebec",
+    activity2: "See Montmorency Falls",
+    activity3: "Take a Tour of La Citadelle de Quebec",
     currency: "Canadian Dollar",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=25000%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A169995%3AUNKNOWN%3AUNKNOWN&destination-id=169995&q-destination=Quebec,%20Quebec,%20Canada&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -265,6 +316,9 @@ db.Locations.create({
     cost: "Low",
     language: "English",
     continent: "North America",
+    activity1: "Scale Mount Helena",
+    activity2: "Check out the Architecture at the Cathedral of Saint Helena",
+    activity3: "See the Works at Holter Museum of Art",
     currency: "US Dollar",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=14652%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1522564%3AUNKNOWN%3AUNKNOWN&destination-id=1522564&q-destination=Helena,%20Montana,%20United%20States%20of%20America&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
@@ -280,6 +334,9 @@ db.Locations.create({
     cost: "High",
     language: "Egyptian",
     continent: "Africa",
+    activity1: "See the Pyramids at Giza Necropolis",
+    activity2: "Shop in the Bazaar at Khan el-Khalili",
+    activity3: "Check Out the History at Egyptian Museum",
     currency: "Egyptian Pound",
     trivagoLink: "https://www.trivago.com/?aDateRange%5Barr%5D=2019-08-01&aDateRange%5Bdep%5D=2019-08-02&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=8%2F200&iViewType=0&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=",
     hotelLink: "https://www.hotels.com/search.do?resolved-location=CITY%3A1634358%3AUNKNOWN%3AUNKNOWN&destination-id=1634358&q-destination=Cairo,%20Egypt&q-check-in=2019-07-25&q-check-out=2019-07-26&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
